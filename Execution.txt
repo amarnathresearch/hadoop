@@ -1,0 +1,3 @@
+javac -classpath "/usr/local/hadoop/share/hadoop/common/*:/usr/local/hadoop/share/hadoop/common/lib/*:/usr/local/hadoop/share/hadoop/hdfs/*:/usr/local/hadoop/share/hadoop/client/*" HDFSFullExample.java
+
+jar cf HDFSFullExample.jar HDFSFullExample*.class
